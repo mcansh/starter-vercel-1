@@ -1,4 +1,11 @@
-import { Meta, Scripts, Styles, Routes, useGlobalData } from "@remix-run/react";
+import {
+  Meta,
+  Scripts,
+  Styles,
+  Routes,
+  useGlobalData,
+  Link,
+} from "@remix-run/react";
 
 export default function App() {
   let data = useGlobalData();
@@ -11,6 +18,16 @@ export default function App() {
         <Styles />
       </head>
       <body>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/test">Test</Link>
+            </li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        </nav>
         <Routes />
         <Scripts />
         <footer>

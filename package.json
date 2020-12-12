@@ -9,6 +9,7 @@
     "start": "concurrently \"tsc -b -w --preserveWatchOutput\" \"remix run\" \"vercel dev\""
   },
   "dependencies": {
+    "@mdx-js/react": "1.6.22",
     "@remix-run/cli": "^0.8.1",
     "@remix-run/data": "^0.8.1",
     "@remix-run/react": "^0.8.1",
@@ -26,6 +27,6 @@
     "typescript": "^4.1.2"
   },
   "engines": {
-    "node": "12"
+    "node": ">=12"
   }
 }
