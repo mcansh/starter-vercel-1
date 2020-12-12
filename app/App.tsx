@@ -21,6 +21,9 @@ export default function App() {
         <nav>
           <ul>
             <li>
+              <Link to="/test-2">Test 2</Link>
+            </li>
+            <li>
               <Link to="/test">Test</Link>
             </li>
             <li>
